@@ -1,11 +1,11 @@
 //base by ES-TEAMS TECH (Stinger-V1 Bot Inc.)
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @pesteams
-//Instagram: Unavailable 
-//Telegram: t.me/examsolutionteam
-//GitHub: @paskito
-//WhatsApp: +2349037524605
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@esteams
+//Tiktok: @ayesha.bibi.40
+//Instagram: @ayeshabibi011 
+//Telegram: t.me/ayeshabibi1111
+//Tiktok: @ayesha.bibi.40
+//WhatsApp: +923429010160
+//want more free bot scripts? subscribe to my WhatsApp channel: https://whatsapp.com/channel/0029Vb7qmxVG8l5LP0E9w61H
 
 const {
    spawn
@@ -20,7 +20,7 @@ function start() {
       })
       .on('message', data => {
          if (data == 'reset') {
-            console.log('Restarting Stinger-V1...')
+            console.log('Restarting ᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ...')
             p.kill()
             start()
             delete p
