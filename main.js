@@ -1,10 +1,10 @@
 //base by DGXeon (Xeon Bot Inc.)
-//YouTube: @esteams
-//Instagram: examsolutionteam 
-//Telegram: t.me/examsolutionteam 
-//GitHub: @paskito002
-//WhatsApp: +2349037524605
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@esteams
+//Tiktok: @ayesha.bibi.40
+//Instagram: ayeshabibi011 
+//Telegram: t.me/ayeshabibi1111 
+//Tiktok: @ayesha.bibi.40
+//WhatsApp: +923429010160
+//want more free bot scripts? subscribe to my WhatsApp channel: https://whatsapp.com/channel/0029Vb7qmxVG8l5LP0E9w61H
 
 require('./settings')
 const pino = require('pino')
@@ -31,7 +31,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "2349155298855"
+let phoneNumber = "923429010160"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -77,18 +77,18 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +2349155298855")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +923429010160")))
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Es Teams said you should Please type your WhatsApp number 🥺\nFor example: +2348187637779 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`ᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ said you should Please type your WhatsApp number 🥺\nFor example: +923429010160 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +2349155298855")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +923429010160")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Es Teams said you should Please type your WhatsApp number 🥺\nFor example: +2348187637779 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Es Teams said you should Please type your WhatsApp number 🥺\nFor example: +923429010160 : `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
